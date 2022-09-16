@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+}
+article{
+    width: 600px;
+    height: 250px;
+}
+#article1{
+    background-color: grey;
+    color: gold;
+}
+#article2{
+    background-color: green;
+    color: violet;
+}
+body{
+    background-color: skyblue;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: column;
+}
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+}
+aside{
+    display: flex;
+    justify-content: center;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: row-reverse;
+}
+
